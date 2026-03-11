@@ -5,8 +5,7 @@ import './styles/App.css'
 import Header from "./components/layout/Header.jsx"
 import Hero from "./components/layout/Hero.jsx"
 import Quick from './components/layout/Quick.jsx'
-import Main from './components/layout/Main.jsx'
-import Latest from './components/layout/Latest.jsx'
+import NewsLetter from './components/layout/NewsLetter.jsx'
 import Footer from './components/layout/Footer.jsx'
 function App() {
   return (
@@ -14,8 +13,7 @@ function App() {
       <Header />
       <Hero />
       <Quick />
-      <Main />
-      <Latest />
+      <NewsLetter />
       <Footer />
     </>
   )
