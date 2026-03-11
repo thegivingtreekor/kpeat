@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Latest() {
+function NewsLetter() {
   return (
-    <div>Latest</div>
+    <div>NewsLetter</div>
   )
 }
 
-export default Latest
+export default NewsLetter
