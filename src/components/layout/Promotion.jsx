@@ -2,7 +2,7 @@ import React from 'react'
 
 function Promotion() {
   return (
-    <div class="w-full bg-linear-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white">
+    <div className="w-full bg-linear-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white">
       <div className="container mx-auto py-10">
         <p className="text-3xl">농기계 보조사업 지원을 위한 견적서 발행요청</p>
         <ul className="mt-5">
