@@ -56,7 +56,7 @@ function Quick() {
                             {list.title}
                             <div className="badge badge-secondary">NEW</div>
                         </h2>
-                        <p>${list.desc}</p>
+                        <p>{list.desc}</p>
                         <div className="card-actions justify-end">
                             <div className="badge badge-outline">장바구니</div>
                             <div className="badge badge-outline">결제하기</div>
