@@ -4,18 +4,27 @@ function Footer() {
     return (
         <footer className="footer sm:footer-horizontal bg-base-300 text-base-content p-10">
             <nav>
-                <h6 className="footer-title">About</h6>
-                <a className="link link-hover">CEO</a>
-                <a className="link link-hover">Business</a>
-                <a className="link link-hover">Marketing</a>
-                <a className="link link-hover">Advertisement</a>
+                <h6 className="footer-title">회사소개</h6>
+                <a className="link link-hover">인사말</a>
+                <a className="link link-hover">사업분야</a>
+                <a className="link link-hover">비전</a>
+                <a className="link link-hover">오시는길</a>
             </nav>
             <nav>
-                <h6 className="footer-title">Company</h6>
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
+                <h6 className="footer-title">제품소개</h6>
+                <a className="link link-hover">유럽</a>
+                <a className="link link-hover">러시아</a>
+            </nav>
+            <nav>
+                <h6 className="footer-title">구매/문의</h6>
+                <a className="link link-hover">카탈로그</a>
+                <a className="link link-hover">견적서</a>
+            </nav>
+            <nav>
+                <h6 className="footer-title">고객센터</h6>
+                <a className="link link-hover">자주묻는질문</a>
+                <a className="link link-hover">공지사항</a>
+                <a className="link link-hover">질문답변</a>
             </nav>
             <nav>
                 <h6 className="footer-title">Social</h6>
