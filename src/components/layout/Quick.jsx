@@ -1,31 +1,34 @@
 import React, { useState, useEffect } from 'react';
-
+import peatmoss1 from '../../assets/peatmoss_1.png'
+import peatmoss2 from '../../assets/peatmoss_2.png'
+import peatmoss3 from '../../assets/peatmoss_3.png'
+import peatmoss4 from '../../assets/peatmoss_4.png'
 function Quick() {
     const items = [
         {
             id:1,title: 'ASB Gree',
             desc: 'a card component has a figure, a body part, and inside body there are title and actions parts',
-            src: 'https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/7de5/21f4ef1a006450ac595d1841d3782fbf331cc36eb556ed2b0f15eb6cbda4.jpg',
+            src: peatmoss1,
             alt: 'nordagri',
             category: 'peatmoss'
         },
         {
             id:2,title: 'card title2',
             desc: 'a card component has a figure, a body part, and inside body there are title and actions parts',
-            src: 'https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/5059/fc94721715f3e21734c543597e0a26af1d11ab05d8768ac9803e46041527.jpg',
+            src: peatmoss2,
             alt: 'sekyeong',
             category: 'peatmoss'
         },
         {
             id:3,title: 'card title3',
             desc: 'a card component has a figure, a body part, and inside body there are title and actions parts',
-            src: 'https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/7de5/21f4ef1a006450ac595d1841d3782fbf331cc36eb556ed2b0f15eb6cbda4.jpg',
+            src: peatmoss3,
             alt: 'greenpeat',
             category: 'peatmoss'
         },{
             id:4,title: 'card title4',
             desc: 'a card component has a figure, a body part, and inside body there are title and actions parts',
-            src: 'https://thumbnail.coupangcdn.com/thumbnails/remote/657x657q90trim/image/vendor_inventory/5059/fc94721715f3e21734c543597e0a26af1d11ab05d8768ac9803e46041527.jpg',
+            src: peatmoss4,
             alt: 'sekyeong',
             category: 'peatmoss'
         }
