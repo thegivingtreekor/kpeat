@@ -34,10 +34,10 @@ function Quick() {
     return (
         <div className="container mx-auto my-5">
             <ul className="category flex gap-4 pb-5">
-                <li className="text-sm uppercase">all</li>
-                <li className="text-sm uppercase">peatmoss</li>
-                <li className="text-sm uppercase">perlite</li>
-                <li className="text-sm uppercase">fertilizer</li>
+                <li className="text-sm uppercase hover:text-amber-800 hover:font-bold">전체보기</li>
+                <li className="text-sm uppercase hover:text-gray-800 hover:font-bold">피트모스</li>
+                <li className="text-sm uppercase hover:text-gray-800 hover:font-bold">펄라이트</li>
+                <li className="text-sm uppercase hover:text-gray-800 hover:font-bold">비료퇴비</li>
             </ul>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
             {lists.map((list) => (
