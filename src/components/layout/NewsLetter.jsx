@@ -7,7 +7,7 @@ function NewsLetter() {
     console.log(email);
   }
   return (
-    <div className="container mx-auto py-5 text-center">
+    <div className="w-full mx-auto py-10 text-center bg-gray-100">
       <p className="text-sm">뉴스레터 구독하기</p>
       <p>피트모스 관련 최신 소식과 동향을 뉴스레터로 수신하려면 이메일을 등록하세요!</p>
       <div className="newsletter">
