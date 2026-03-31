@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useCallback } from 'react'
-import img1 from '../../assets/peat_bog1.png'
-import img2 from '../../assets/peat_bog2.png'
-import img3 from '../../assets/peat_bog3.png'
-import img4 from '../../assets/peat_bog4.png'
+import img1 from '../../assets/hero_imgs/peat_bog1.png'
+import img2 from '../../assets/hero_imgs/peat_bog2.png'
+import img3 from '../../assets/hero_imgs/peat_bog3.png'
+import img4 from '../../assets/hero_imgs/peat_bog4.png'
 function Hero() {
   const [currentSlide, setCurrentSlide] = useState(1);
   const totalSlides = 4
